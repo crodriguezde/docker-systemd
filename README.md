@@ -1,4 +1,4 @@
-# Mariner linux docker with systemd
+# Mariner linux container image with systemd
 
 ## Build docker image with docker tools
 
