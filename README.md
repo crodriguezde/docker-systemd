@@ -1,6 +1,6 @@
-# docker-systemd
+# Mariner linux docker with systemd
 
-# Build docker image with docker tools
+## Build docker image with docker tools
 
 I used a private registry to build the image with docker tools.
 1) docker run -d -p 5000:5000 --restart=always --name registry registry:2
@@ -10,7 +10,7 @@ I used a private registry to build the image with docker tools.
 Push local image to registry
 3) docker push localhost:5000/mariner-systemd
 
-# Using docker
+## Using docker
 ```
 ❯ docker run --privileged --rm -it localhost:5000/mariner-systemd /usr/bin/bash
 Created symlink /etc/systemd/system/systemd-firstboot.service → /dev/null.
@@ -33,7 +33,7 @@ root [ / ]#
 
 ```
 
-# Using crictl/containerd
+## Using crictl/containerd
 
 Pull image for containerd/crictl use
 1) crictl pull localhost:5000/mariner-systemd
