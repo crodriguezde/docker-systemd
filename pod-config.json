@@ -1,0 +1,11 @@
+{
+    "metadata": {
+        "name": "systemd-sandbox",
+        "namespace": "default",
+        "attempt": 1,
+        "uid": "hdishd83dXaidXnduwk28bcsb"
+    },
+    "log_directory": "/tmp",
+    "linux": {
+    }
+}
